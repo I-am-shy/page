@@ -7,7 +7,40 @@
     <title>小组件</title>
     <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="css.css" type="text/css">
-     
+      <style>
+        .top{
+            width: 200%;
+            height: 50px;
+            background-color: #eee;
+            box-shadow: 0 1px 2px;
+            opacity: 0.6;
+            position: absolute;
+           
+        }
+        .drop{
+            line-height: 40px;
+            float: left;
+            width: 80px;
+            text-align: center;
+            background-color: #eee;
+            
+        }
+        a{
+            display: block;
+            width: 80px;
+            height: 50px;
+            color: rgb(0, 0, 0);
+            text-decoration: none;
+            text-align: center;
+            
+        }
+        a:hover{
+            background-color: #959494;
+        }
+        a:active{
+            color: #ffffff;
+        }
+    </style>
 </head>
 <body>
     
@@ -75,6 +108,13 @@
        <button class="arrow-right">
             <i class="fas fa-arrow-right"></i>
        </button>
+        
+        <div class="top">
+        <div class="drop">
+            <a href="login/login.html">登录</a>
+        </div>
+       </div>
+        
     </div>
     <!--js中使用了html的标签元素，将js插入在标签元素之后 -->
     <script src="js.js" type="text/javascript"></script>
