@@ -24,7 +24,7 @@ class ball{
         this.diry = diry;
 
         // 大小
-        this.radius = 2;
+        this.radius = 3;
         // 透明度
         this.opcity = 4;
         // 颜色
@@ -107,7 +107,7 @@ canvas.addEventListener("click",(e)=>{
        
    
 })
-canvas.addEventListener("1mousemove",(e)=>{
+canvas.addEventListener("mousemove",(e)=>{
    
    
     
