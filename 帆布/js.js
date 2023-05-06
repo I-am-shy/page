@@ -86,7 +86,7 @@ animate();
 // 鼠标事件
 canvas.addEventListener("click",(e)=>{
     // 爆炸后的数量
-    let num = 100;
+    let num = 400;
     // 偏移弧度
     let hudu = Math.PI * 2/num;
     // 循环创建
